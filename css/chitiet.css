@@ -1,0 +1,164 @@
+:root {
+  --box: 1100px;
+}
+article {
+  background-color: rgb(241, 240, 241);
+  /* height: 200px; */
+  width: 100%;
+  padding-bottom: 20px;
+}
+.main {
+  width: var(--box);
+  margin: 0 auto;
+}
+.nav_info {
+  display: flex;
+  align-items: center;
+  color: gray;
+  /* margin-top: 20px; */
+  padding-top: 20px;
+}
+.tilte_info {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 0 10px;
+  border: 1px solid gray;
+  /* width: fit-content; */
+  /* width: 50%; */
+}
+.tilte_info h2 {
+  font-size: 14px;
+}
+.nuthome {
+  color: gray;
+  border: 1px solid gray;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 7.4px;
+}
+.nav_icon_home {
+  display: flex;
+  align-items: center;
+}
+.nav_icon_home span {
+  margin: 0 20px;
+  font-size: 16px;
+  /* font-weight: bold; */
+  text-align: center;
+}
+.main_sanpham {
+  margin-top: 20px;
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+}
+.sanpham_top {
+  display: flex;
+  justify-content: space-between;
+}
+.main_sanpham_left {
+  width: 70%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+.sanpham_image {
+  width: 35%;
+  /* display: flex;
+  align-items: center; */
+  padding: 20px;
+}
+.sanpham_info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.sanpham_info h1 {
+  font-size: 18px;
+  color: rgb(51, 47, 47);
+}
+.sanpham_info strong {
+  font-size: 30px;
+  color: #356ab4;
+}
+.gia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p_gia {
+  font-size: 18px;
+  font-weight: bold;
+  color: #356ab4;
+}
+.p_gia_khuyenmai {
+  font-size: 14px;
+  font-weight: bold;
+  color: #356ab4;
+  text-decoration: line-through;
+}
+.buttun_themgiohang {
+  height: 50px;
+  background-color: #356ab4;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 15px;
+  margin: 4px 0;
+  width: 100%;
+  font-weight: bold;
+}
+.buttun_themgiohang:hover {
+  background-color: #3779d4;
+}
+.cauhinh_list {
+  line-height: 1.5;
+  list-style: none;
+  font-size: 13px;
+}
+.cauhinh_item {
+  font-size: 14px;
+}
+
+.main_sanpham_right {
+  width: 28%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+.free_giaohang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 2px dotted green;
+  padding-bottom: 5px;
+}
+.iconxe {
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+  padding-left: 4px;
+}
+.mienphigiaohang {
+  font-size: 14px;
+  color: green;
+  padding-right: 4px;
+}
+.chinhsach_tilte {
+  font-size: 18px;
+}
+.chinhsach_list {
+  list-style: none;
+  padding: 0;
+  line-height: 1.2;
+}
+.chinhsach_item {
+  font-size: 14px;
+  margin-top: 10px;
+}

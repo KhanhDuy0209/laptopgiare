@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link
+      rel="stylesheet"
+      href="./FontAwesome/fontawesome-free-5.13.0-web/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/trangchu.css" />
+    <link rel="stylesheet" href="./css/muahang.css" />
+    <script src="./js/giohang.js"></script>
+    <title>Mua Hàng</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header_top">
+          <div class="header_top_box">
+            <div class="logo_search">
+              <a href="./index.html"
+                ><img src="img/logo1.png" alt="" class="logo_image"
+              /></a>
+              <select name="chon" class="list_option">
+                <option value="1" class="option_item">ALL</option>
+                <option value="1" class="option_item">Laptop</option>
+                <option value="1" class="option_item">Phụ kiện</option>
+              </select>
+              <div class="input">
+                <input
+                  type="text"
+                  placeholder="Nhập nội dung cần tìm"
+                  class="input_box"
+                />
+                <a href="#"><i class="fa fa-search icon"></i></a>
+              </div>
+            </div>
+            <a href="./giohang.html" class="a">
+              <div class="flex shop">
+                <span class="status">Giỏ hàng/0đ</span>
+                <i class="fa fa-shopping-cart shop_icon"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="bottom_header">
+          <div class="box_header_bottom">
+            <a href="#" class="link_list">
+              <div class="box_list">
+                <i class="fa fa-headset icon_nav"></i>
+                <p class="nav_item">SẢN PHẨM</p>
+              </div>
+            </a>
+            <a href="#" class="link_list">
+              <div class="box_list">
+                <i class="fa fa-headset icon_nav"></i>
+                <p class="nav_item">LINH KIỆN</p>
+              </div>
+            </a>
+            <a href="#" class="link_list">
+              <div class="box_list">
+                <i class="fa fa-headset icon_nav"></i>
+                <p class="nav_item">KHUYẾN MÃI</p>
+              </div>
+            </a>
+            <a href="#" class="link_list">
+              <div class="box_list">
+                <i class="fa fa-headset icon_nav"></i>
+                <p class="nav_item">TIN TỨC</p>
+              </div>
+            </a>
+            <a href="#" class="link_list">
+              <div class="box_list">
+                <i class="fa fa-headset icon_nav"></i>
+                <p class="nav_item">DỊCH VỤ</p>
+              </div>
+            </a>
+            <a href="#" class="link_list">
+              <div class="box_list">
+                <i class="fa fa-headset icon_nav"></i>
+                <p class="nav_item">LIÊN HỆ</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </header>
+      <article>
+        <div class="box_nhapthongtin">
+          <h2 class="nhapthongtin">Nhập thông tin của bạn</h2>
+          <p class="boxthongtin_tilte">Họ Tên:</p>
+          <input
+            type="text"
+            placeholder="Ví Dụ : Nguyễn Văn A"
+            class="input_ten j"
+          />
+          <p class="boxthongtin_tilte">Ngày Tháng Năm Sinh:</p>
+          <input type="date" class="input_date j" />
+          <p class="boxthongtin_tilte">Giới Tính:</p>
+          <form class="input_form">
+            <input
+              name="gioitinh"
+              type="radio"
+              value="Nam"
+              class="input_form_tilte"
+            /><span>Nam</span>
+            <input
+              name="gioitinh"
+              type="radio"
+              value="Nữ"
+              class="input_form_tilte"
+            /><span>Nữ</span>
+            <input
+              name="gioitinh"
+              type="radio"
+              value="Khác  "
+              class="input_form_tilte j"
+            /><span>Khác</span>
+          </form>
+          <p class="boxthongtin_tilte">Thành Phố</p>
+          <select class="box_select j">
+            <option class="box_select_tilte">HCM</option>
+            <option class="box_select_tilte">HN</option>
+            <option class="box_select_tilte">ĐN</option>
+          </select>
+          <p class="boxthongtin_tilte">Quận:</p>
+          <input
+            type="text"
+            placeholder="Ví Dụ :Quận 12"
+            class="input_quan j"
+          />
+          <p class="boxthongtin_tilte">Địa Chỉ:</p>
+          <input
+            type="text"
+            placeholder="Ví Dụ : 88/88 Đường số 7 Khu phố 12 "
+            class="input_diachi j"
+          />
+          <p class="boxthongtin_tilte">Số Điện Thoại:</p>
+          <input
+            type="text"
+            placeholder="Ví Dụ :0112358998 "
+            class="input_tel j"
+          />
+          <p class="boxthongtin_tilte">Email:</p>
+          <input
+            type="text"
+            placeholder="Ví Dụ :abc@gmail.com"
+            class="input_email_info j"
+          />
+          <button onclick="show2()" class="button_xacnhan">Xác Nhận</button>
+        </div>
+      </article>
+      <footer>
+        <div class="top_footer">
+          <p>Đăng ký nhận tin khuyến mãi từ Laptop.pro</p>
+          <input type="text" placeholder="Địa chỉ email " class="input_email" />
+          <button type="reset" class="gui">Gửi</button>
+        </div>
+        <div class="main_footer">
+          <div class="thongtin_footer">
+            <div class="thongtin_item_left">
+              <div class="thongtin_item">
+                <h2 class="cuoicung">VỀ LAPTOPPRO</h2>
+                <ul>
+                  <li><a href="#">Trang chủ</a></li>
+                  <li><a href="#">Giới thiệu</a></li>
+                  <li><a href="#">Cửa hàng</a></li>
+                  <li><a href="#">Liên hệ</a></li>
+                </ul>
+              </div>
+              <div class="thongtin_item">
+                <h2 class="cuoicung">SẢN PHẨM</h2>
+                <ul>
+                  <li><a href="#">Laptop</a></li>
+                  <li><a href="#">Desktop</a></li>
+                  <li><a href="#">Linh kiện</a></li>
+                  <li><a href="#">Khuyến mãi</a></li>
+                </ul>
+              </div>
+              <div class="thongtin_item">
+                <h2 class="cuoicung">CHÍNH SÁCH & HỖ TRỢ</h2>
+                <ul>
+                  <li><a href="#">Hướng dẫn mua hàng</a></li>
+                  <li><a href="#">Hướng dẫn mua trả góp</a></li>
+                  <li><a href="#">Chính sách giao hàng</a></li>
+                  <li><a href="#">Quy chế hoạt động</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="thongtin_item_right">
+              <h2 class="cuoicung">LIÊN HỆ</h2>
+              <i class="fa fa-map-marker-alt icon_cuoi1"></i>
+              <i class="fa fa-tty icon_cuoi2"></i>
+              <i class="fa fa-mail-bulk icon_cuoi3"></i>
+              <div class="lienket">
+                <p>
+                  <b>CN HCM: </b>670 Đoàn Văn Bơ , Quận 4, Thành
+                  phố Hồ Chí Minh, Việt Nam
+                </p>
+                <p>
+                  <b>CN Trà Vinh: </b>224 Ấp Hạ, Xã Đại Phước, Huyện Càng Long, Tỉnh Trà Vinh, Việt Nam
+                </p>
+                <p>
+                  <b>Kinh doanh: </b><a href="#">0123.545.574-0554.545.674</a>
+                </p>
+                <p><b>CSKH: </b><a href="#">0123.545.574-0554.545.674</a></p>
+                <a href="#">quangia516@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
